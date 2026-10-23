@@ -2043,3 +2043,20 @@ footer {
     background-color: transparent;
 }
 
+
+.im{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: 2px solid #010f3a;
+    margin-bottom: 50px;
+}
+.imega{
+    width: 100%;
+    border-radius: 20px;
+}
+.im h1{
+    color: #91a4df;
+}
