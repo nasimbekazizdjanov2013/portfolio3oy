@@ -1,7 +1,3 @@
-/* =========================
-   UMUMIY SOZLAMALAR
-========================= */
-
 * {
     margin: 0;
     padding: 0;
@@ -757,11 +753,6 @@ section {
     font-size: 14px;
 }
 
-
-/* =========================
-   INTERESTS SECTION
-========================= */
-
 .interests-section {
     margin-top: 100px;
     padding-top: 100px;
@@ -876,11 +867,6 @@ section {
     border-radius: 30px;
     background: rgba(99, 102, 241, 0.12);
 }
-
-
-/* =========================
-   PROJECTS SECTION
-========================= */
 
 .projects-section {
     margin-top: 100px;
@@ -1317,11 +1303,6 @@ section {
     line-height: 2;
 }
 
-
-/* =========================
-   QUOTE SECTION
-========================= */
-
 .quote-section {
     margin-top: 120px;
     padding: 65px 30px;
@@ -1633,11 +1614,9 @@ section {
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.09);
     border-radius: 24px;
-    background: linear-gradient(
-        145deg,
-        rgba(24, 29, 46, 0.98),
-        rgba(12, 16, 29, 0.98)
-    );
+    background: linear-gradient(145deg,
+            rgba(24, 29, 46, 0.98),
+            rgba(12, 16, 29, 0.98));
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.22);
     transition:
         transform 0.4s ease,
@@ -1686,11 +1665,9 @@ section {
 .project-image::after {
     inset: 0;
     z-index: -1;
-    background: linear-gradient(
-        180deg,
-        transparent 40%,
-        rgba(8, 11, 20, 0.55)
-    );
+    background: linear-gradient(180deg,
+            transparent 40%,
+            rgba(8, 11, 20, 0.55));
 }
 
 .project-number {
@@ -1725,11 +1702,9 @@ section {
     background:
         linear-gradient(90deg, transparent 49%, rgba(255, 255, 255, 0.06) 50%, transparent 51%),
         linear-gradient(0deg, transparent 49%, rgba(255, 255, 255, 0.06) 50%, transparent 51%),
-        repeating-linear-gradient(
-            0deg,
+        repeating-linear-gradient(0deg,
             transparent 0 30px,
-            rgba(255, 255, 255, 0.04) 31px 32px
-        ),
+            rgba(255, 255, 255, 0.04) 31px 32px),
         linear-gradient(135deg, #152b48, #0b1528);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
 }
@@ -1738,15 +1713,13 @@ section {
     inset: auto 70px 55px;
     height: 65px;
     border-radius: 8px;
-    background: linear-gradient(
-        140deg,
-        #36e4c2 0 15%,
-        transparent 16% 28%,
-        #5a91ff 29% 46%,
-        transparent 47% 58%,
-        #a78bfa 59% 76%,
-        transparent 77%
-    );
+    background: linear-gradient(140deg,
+            #36e4c2 0 15%,
+            transparent 16% 28%,
+            #5a91ff 29% 46%,
+            transparent 47% 58%,
+            #a78bfa 59% 76%,
+            transparent 77%);
     opacity: 0.8;
 }
 
@@ -1815,18 +1788,16 @@ section {
 
 .project-four .project-image::after {
     inset: 85px 55px 65px;
-    background: linear-gradient(
-        145deg,
-        transparent 0 12%,
-        #35e6a0 13% 15%,
-        transparent 16% 28%,
-        #35e6a0 29% 31%,
-        transparent 32% 43%,
-        #35e6a0 44% 46%,
-        transparent 47% 57%,
-        #35e6a0 58% 60%,
-        transparent 61%
-    );
+    background: linear-gradient(145deg,
+            transparent 0 12%,
+            #35e6a0 13% 15%,
+            transparent 16% 28%,
+            #35e6a0 29% 31%,
+            transparent 32% 43%,
+            #35e6a0 44% 46%,
+            transparent 47% 57%,
+            #35e6a0 58% 60%,
+            transparent 61%);
     opacity: 0.95;
 }
 
@@ -1975,7 +1946,7 @@ section {
     border-radius: 4px;
 }
 
-.image img{
+.image img {
     width: 100%;
     text-emphasis: 100px;
 }
@@ -2005,25 +1976,19 @@ body::before {
     pointer-events: none;
 
     background-image:
-        radial-gradient(
-            circle,
+        radial-gradient(circle,
             rgba(0, 217, 255, 0.9) 1px,
-            transparent 2px
-        ),
-        repeating-linear-gradient(
-            115deg,
+            transparent 2px),
+        repeating-linear-gradient(115deg,
             transparent 0px,
             transparent 65px,
             rgba(0, 217, 255, 0.18) 66px,
-            transparent 68px
-        ),
-        repeating-linear-gradient(
-            25deg,
+            transparent 68px),
+        repeating-linear-gradient(25deg,
             transparent 0px,
             transparent 85px,
             rgba(0, 217, 255, 0.13) 86px,
-            transparent 88px
-        );
+            transparent 88px);
 
     background-size:
         35px 35px,
@@ -2044,7 +2009,7 @@ footer {
 }
 
 
-.im{
+.im {
     width: 400px;
     border-radius: 20px;
     margin-left: auto;
@@ -2053,10 +2018,12 @@ footer {
     border: 2px solid #010f3a;
     margin-bottom: 50px;
 }
-.imega{
+
+.imega {
     width: 100%;
     border-radius: 20px;
 }
-.im h1{
+
+.im h1 {
     color: #91a4df;
 }
